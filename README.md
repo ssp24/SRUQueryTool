@@ -22,4 +22,12 @@ Das Tool unterstützt verschiedene Kataloge und Metadatenformate. Es zeigt nach 
 
 ```bash
 git clone https://github.com/dein-benutzername/sru-query-tool.git
-cd sru-query-tool
+cd sru-query-tool```
+
+2. Virtuelle Umgebung erstellen (optional, empfohlen):
+```python -m venv venv
+# macOS/Linux
+source venv/bin/activate
+# Windows
+venv\Scripts\activate```
+
