@@ -35,3 +35,46 @@ source venv/bin/activate
 venv\Scripts\activate
 ```
 
+3. Abhängigkeiten installieren:
+```
+pip install -r requirements.txt
+```
+
+## Ordnerstruktur
+
+sru-query-tool/
+│
+├── app/
+│   ├── ui_layout.py
+│   ├── workers.py
+│   ├── app_functions.py
+│   ├── sru_functions.py
+│   ├── config.py
+│   └── styles.py
+│
+├── images/
+│   ├── logo.gif
+│   └── spinner.gif
+│
+├── SRUQueryTool.py
+├── requirements.txt
+└── README.md
+
+## Nutzung
+
+Starten der Anwendung:
+```
+python SRUQueryTool.py
+```
+
+Schritte:
+  * Katalog und Metadatenformat auswählen
+  * Suchanfrage eingeben
+  * „Suchanfrage prüfen“ klicken, um die Trefferanzahl zu überprüfen
+  * „Download XML“ klicken, um die Ergebnisse herunterzuladen
+
+## Hinweise 
+  * Bei mehr als 100.000 Treffern empfiehlt das Tool, die Suchanfrage weiter einzuschränken.
+  * Die Anwendung setzt Python 3.9+ und PyQt5 voraus.
+  * Die XML-Datei kann an einem gewünschten Speicherort abgelegt werden.
+
