@@ -1,5 +1,5 @@
 from PyQt5.QtCore import QThread, pyqtSignal
-from sru_functions import dnb_sru, dnb_sru_number
+from app.sru_functions import dnb_sru, dnb_sru_number
 
 ## Worker:
 class DNBNumberWorker(QThread):

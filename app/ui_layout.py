@@ -1,7 +1,7 @@
-from app_functions import resource_path
-from workers import DNBNumberWorker, DNBSRUThread
-from styles import MAIN_STYLE, EXIT_BUTTON_STYLE
-from config import CATALOGUE_URLS, METADATA_FORMATS, MAX_RESULTS
+from app.app_functions import resource_path
+from app.workers import DNBNumberWorker, DNBSRUThread
+from app.styles import MAIN_STYLE, EXIT_BUTTON_STYLE
+from app.config import CATALOGUE_URLS, METADATA_FORMATS, MAX_RESULTS
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit, \
     QPushButton, QComboBox, QProgressBar, QSpacerItem, QSizePolicy, QShortcut, QFileDialog
 from PyQt5.QtCore import Qt, QSize

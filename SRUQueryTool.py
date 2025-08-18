@@ -1,6 +1,6 @@
 import sys
 from PyQt5.QtWidgets import QApplication
-from ui_layout import SRUQueryApp
+from app.ui_layout import SRUQueryApp
 
 
 if __name__ == '__main__':
