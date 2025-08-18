@@ -59,18 +59,12 @@ SRUQueryTool/
 ## Nutzung
 
 Starten der Anwendung:
-```
+```bash
 python SRUQueryTool.py
 ```
 
-Schritte:
-  * Katalog und Metadatenformat auswählen
-  * Suchanfrage eingeben
-  * „Suchanfrage prüfen“ klicken, um die Trefferanzahl zu überprüfen
-  * „Download XML“ klicken, um die Ergebnisse herunterzuladen
-
 ## Hinweise 
-  * Bei mehr als 100.000 Treffern empfiehlt das Tool, die Suchanfrage weiter einzuschränken.
+  * Bei mehr als 100.000 Treffern muss die Suchanfrage weiter eingeschränkt werden, da die SRU-Schnittstelle der DNB hier aktuell ein Limit besitzt. 
   * Die Anwendung setzt Python 3.9+ und PyQt5 voraus.
-  * Die XML-Datei kann an einem gewünschten Speicherort abgelegt werden.
+  * Die XML-Dateien können lokal an einem beliebigen Speicherort abgelegt werden.
 
