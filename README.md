@@ -41,7 +41,7 @@ pip install -r requirements.txt
 ```
 
 ## Ordnerstruktur
-"""
+
 SRUQueryTool/
   images/
     logo.gif
@@ -54,7 +54,8 @@ SRUQueryTool/
   sru_functions.py
   requirements.txt
   README.md
-"""
+
+
 ## Nutzung
 
 Starten der Anwendung:
