@@ -20,14 +20,13 @@ Das Tool unterstützt verschiedene Kataloge und Metadatenformate. Es zeigt nach 
 
 1. Repository klonen:
 
-```
-bash
+```bash
 git clone https://github.com/dein-benutzername/sru-query-tool.git
 cd sru-query-tool
 ```
 
 2. Virtuelle Umgebung erstellen (optional, empfohlen):
-```
+```bash
 python -m venv venv
 # macOS/Linux
 source venv/bin/activate
@@ -36,7 +35,7 @@ venv\Scripts\activate
 ```
 
 3. Abhängigkeiten installieren:
-```
+```bash
 pip install -r requirements.txt
 ```
 
