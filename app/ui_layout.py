@@ -64,9 +64,11 @@ class SRUQueryApp(QMainWindow):
                                        "ZDB (Zeitschriftendatenbank)", "Adressdaten (ISIL- und Siegelverzeichnis)"])
         layout.addWidget(self.catalogue_combo)
         self.catalogue_combo.currentIndexChanged.connect(self.update_metadata_formats)
+        self.catalogue_combo.currentIndexChanged.connect(self.disable_download_button)
 
         layout.addWidget(QLabel("Metadatenformat:"))
         self.metadata_combo = QComboBox()
+        self.metadata_combo.currentIndexChanged.connect(self.disable_download_button)
         layout.addWidget(self.metadata_combo)
 
         layout.addWidget(QLabel(" "))
