@@ -22,7 +22,7 @@ Das SRUQueryTool kann als Standalone-Anwendung heruntergeladen und einfach ausge
 
 ### Standalone-Anwendung 
 
-In diesem Repository stehen momentan (zwei Versionen des SRUQueryTool als Release)[https://github.com/ssp24/SRUQueryTool/releases/tag/v0.9] zur Verfügung: 
+In diesem Repository stehen momentan [zwei Versionen des SRUQueryTool als Release](https://github.com/ssp24/SRUQueryTool/releases/tag/v0.9) zur Verfügung: 
 
   - Windows: Für Windows steht die SRUQueryTool.exe zum Download bereit. 
   - MacOS: Für Mac steht das SRUQueryTool als .dmg-Datei zum Download bereit.
