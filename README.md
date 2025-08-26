@@ -54,8 +54,7 @@ Eine Version für Linux ist geplant.
   pip install -r requirements.txt
   ```
 
-
-## Nutzung
+#### Nutzung
 
 Starten der Anwendung:
 ```bash
